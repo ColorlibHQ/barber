@@ -381,7 +381,7 @@ if( ! function_exists('barber_portfolio_single_post_navigation') ) {
 			if( get_next_post_link() ){
 				$nextPost = get_next_post();
 				?>
-				<div class="pre_icon float-left">
+				<div class="pre_icon float-start">
 					<a href="<?php the_permalink(  absint( $nextPost->ID )  ) ?>"><img src="<?php echo esc_url( $slim_left_icon )?>" alt="slim left icon"> <?php echo esc_html__( 'previous', 'barber' ); ?></a> 
 				</div>
 				<?php
@@ -390,7 +390,7 @@ if( ! function_exists('barber_portfolio_single_post_navigation') ) {
 			if( get_previous_post_link() ){
 				$prevPost = get_previous_post();
 				?>
-				<div class="next_icon float-right">
+				<div class="next_icon float-end">
 					<a href="<?php the_permalink(  absint( $prevPost->ID )  ) ?>"> <?php echo esc_html__( 'next', 'barber' ); ?> <img src="<?php echo esc_url( $slim_right_icon )?>" alt="slim right icon"> </a> 
 				</div>
 				<?php
