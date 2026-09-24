@@ -93,8 +93,6 @@
 	require_once( BARBER_DIR_PATH_INC . 'wp-html-helper.php' );
 	// Pagination file include
 	require_once( BARBER_DIR_PATH_INC . 'wp_bootstrap_pagination.php' );
-	// Elementor Widgets
-	// require_once( BARBER_DIR_PATH_ELEMENTOR_WIDGETS . 'elementor-widget.php' );
 	//
 	require_once( BARBER_DIR_PATH_CLASSES . 'Class-Enqueue.php' );
 	

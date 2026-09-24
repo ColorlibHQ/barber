@@ -14,6 +14,7 @@ function barber_sl_enqueue_scripts() {
 
 	wp_localize_script( 'barber-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+		'like'    => esc_html__( 'Like', 'barber' ),
 		'unlike'  => esc_html__( 'Unlike', 'barber' )
 	) );
 }

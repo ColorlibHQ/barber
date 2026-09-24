@@ -204,12 +204,6 @@
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'barber-gijgo-css',
-						'file' 			=> $cssPath.'gijgo.css',
-						'dependency' 	=> array(),
-						'version' 		=> '1.0',
-					),
-					array(
 						'handler'		=> 'barber-nice-select-css',
 						'file' 			=> $cssPath.'nice-select.css',
 						'dependency' 	=> array(),
@@ -219,13 +213,13 @@
 						'handler'		=> 'barber-default-css',
 						'file' 			=> $cssPath.'default.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0-s3',
+						'version' 		=> '1.0',
 					),
 					array(
 						'handler'		=> 'barber-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					
 					array(
