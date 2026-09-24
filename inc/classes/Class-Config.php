@@ -238,86 +238,23 @@
 					array(
 						'handler'		=> 'barber-bootstrap',
 						'file' 			=> $jsPath.'bootstrap.min.js',
-						'dependency' 	=> array( 'jquery' ),
+						'dependency' 	=> array(),
 						'version' 		=> '5.3.8-4',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-isotope-pkgd-js',
-						'file' 			=> $jsPath.'isotope.pkgd.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'scrollIt-js',
-						'file' 			=> $jsPath.'scrollIt.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'jquery-scrollUp-js',
-						'file' 			=> $jsPath.'jquery.scrollUp.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-magnific-popup-js',
-						'file' 			=> $jsPath.'jquery.magnific-popup.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-owl-carousel-js',
-						'file' 			=> $jsPath.'owl.carousel.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-jquery-slicknav-js',
-						'file' 			=> $jsPath.'jquery.slicknav.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-jquery-ajaxchimp-min-js',
-						'file' 			=> $jsPath.'jquery.ajaxchimp.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-plugins-js',
-						'file' 			=> $jsPath.'plugins.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-gijgo-js',
-						'file' 			=> $jsPath.'gijgo.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					
 					array(
 						'handler'		=> 'barber-ui-js',
-						'file' 			=> $jsPath.'colorlib-ui.js',
+						'file' 			=> $jsPath . ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? 'colorlib-ui.js' : 'colorlib-ui.min.js' ),
 						'dependency' 	=> array(),
-						'version' 		=> '2.1.1',
+						'version' 		=> '3.0.0',
 						'in_footer' 	=> true
 					),
 					array(
 						'handler'		=> 'barber-js',
 						'file' 			=> $jsPath.'main.js',
-						'dependency' 	=> array( 'jquery', 'barber-ui-js' ),
-						'version' 		=> $this->barber_version . '-s1',
+						'dependency' 	=> array( 'masonry', 'barber-ui-js' ),
+						'version' 		=> $this->barber_version . '-s2',
 						'in_footer' 	=> true
 					),
 

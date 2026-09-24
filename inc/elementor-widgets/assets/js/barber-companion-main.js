@@ -1,8 +1,13 @@
-(function ($) {
-    'use strict';
+/**
+ * Newsletter form of the (unloaded) theme copy of the Elementor widgets:
+ * Mailchimp subscribe over AjaxChimp, without jQuery.
+ */
+(function () {
+  'use strict';
 
-    //  Mailchimp ajax
-    $('#mc_embed_signup').find('form').ajaxChimp();
+  var UI = window.ColorlibUI;
+  if (!UI) return;
 
-
-})(jQuery);
+  //  Mailchimp ajax
+  UI.ajaxChimp('#mc_embed_signup form');
+}());
