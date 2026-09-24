@@ -190,21 +190,6 @@ h3 {
   background: #f5f5f5;
 }
 
-/* line 131, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
-.bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
-}
-
-/* line 134, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
-.bg-img-2 {
-  background-image: url(../img/background-img/bg-img-2.jpg);
-}
-
-/* line 137, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
-.cta-bg-1 {
-  background-image: url(../img/background-img/bg-img-3.jpg);
-}
-
 /* line 142, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_reset.scss */
 .overlay {
   position: relative;
@@ -1142,11 +1127,6 @@ h3 {
   padding: 0;
 }
 
-/* line 1, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
-.slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
-}
-
 /* line 5, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   height: 100vh;
@@ -1396,11 +1376,6 @@ h3 {
 .about_area .about_thumb2 .img_2 {
   margin-top: 40px;
   margin-left: 10px;
-}
-
-/* line 98, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_about.scss */
-.about_bg_1 {
-  background-image: url(../img/banner/about_banner.png);
 }
 
 /* line 101, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_about.scss */
@@ -2410,21 +2385,6 @@ h3 {
 
 .footer .social_icon a:first-child {
   margin-left: 0;
-}
-
-/* line 1, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
-.breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
-}
-
-/* line 4, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
-.breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
-}
-
-/* line 7, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
-.breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
 }
 
 /* line 10, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_bradcam.scss */
@@ -3788,12 +3748,6 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 798, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 806, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
 .confirm-checkbox {
   width: 16px;
@@ -3828,12 +3782,6 @@ h6 {
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
-
-/* line 835, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 843, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
@@ -3878,12 +3826,6 @@ h6 {
   z-index: 3;
 }
 
-/* line 876, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 884, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
 .primary-radio {
   width: 16px;
@@ -3920,12 +3862,6 @@ h6 {
   border: 1px solid #f1f1f1;
 }
 
-/* line 913, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
-  border: none;
-}
-
 /* line 921, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
 .confirm-radio {
   width: 16px;
@@ -3960,12 +3896,6 @@ h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
-
-/* line 950, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 958, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
@@ -4008,12 +3938,6 @@ h6 {
 .disabled-radio input:disabled {
   cursor: not-allowed;
   z-index: 3;
-}
-
-/* line 991, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
-.disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 999, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_elements.scss */
