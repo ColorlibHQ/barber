@@ -250,20 +250,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'barber-waypoints-js',
-						'file' 			=> $jsPath.'waypoints.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-jquery-counterup-js',
-						'file' 			=> $jsPath.'jquery.counterup.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'scrollIt-js',
 						'file' 			=> $jsPath.'scrollIt.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -285,27 +271,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'barber-instagram-feed-js',
-						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-nice-select-js',
-						'file' 			=> $jsPath.'nice-select.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-wow-js',
-						'file' 			=> $jsPath.'wow.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'barber-owl-carousel-js',
 						'file' 			=> $jsPath.'owl.carousel.min.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -315,13 +280,6 @@
 					array(
 						'handler'		=> 'barber-jquery-slicknav-js',
 						'file' 			=> $jsPath.'jquery.slicknav.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'barber-nice-select-js',
-						'file' 			=> $jsPath.'nice-select.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
@@ -349,10 +307,17 @@
 					),
 					
 					array(
+						'handler'		=> 'barber-ui-js',
+						'file' 			=> $jsPath.'colorlib-ui.js',
+						'dependency' 	=> array(),
+						'version' 		=> '2.1.1',
+						'in_footer' 	=> true
+					),
+					array(
 						'handler'		=> 'barber-js',
 						'file' 			=> $jsPath.'main.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> $this->barber_version,
+						'dependency' 	=> array( 'jquery', 'barber-ui-js' ),
+						'version' 		=> $this->barber_version . '-s1',
 						'in_footer' 	=> true
 					),
 
